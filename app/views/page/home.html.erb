@@ -1,0 +1,34 @@
+
+<h1>Welcome to my webpage!</h1>
+<div class="container">
+  <!-- Example row of columns -->
+  <div class="row">
+    <div class="col-md-4">
+
+      <h2>Student</h2>
+      <p>Student at Angelo State University</p>
+      <%=image_tag "Student.jpg",  alt: "Matthew Low", size: "160x240"%>
+      <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+    </div>
+
+    <div class="col-md-4">
+      <h2>Student Senator</h2>
+      <p>Student Senator for the Computer Science Department at Angelo State University</p>
+      <%=image_tag "Student_Senator.jpg",  alt: "Matthew Low", size: "160x240"%>
+      <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+
+    </div>
+    <div class="col-md-4">
+      <h2>Desktop Technician</h2>
+      <p>Desktop Technician for Angelo State University</p>
+      <%=image_tag "Desktop_Technician.jpg",  alt: "Matthew Low", size: "160x240"%>
+      <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+    </div>
+  </div>
+</div>
+
+<h1><%=yield%></h1>
+<p>Matthew A. Low, student, student senator, and desktop technician</p>
+<p><a class="btn btn-primary btn-lg" href=<%=say_goodbye_path%> role="button">Goodbye &raquo;</a></p>
+</div>
+</div>
